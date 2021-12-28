@@ -1,0 +1,164 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container, .container-md, .container-sm {
+    max-width: 1450px;
+}
+
+body {
+    
+    background-color: #333642;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+
+
+}
+
+.container.view1 {
+   
+    flex-direction: column;
+    gap:10px;
+}
+
+.container.view2 {
+    flex-direction: row;
+    gap:10px;   
+}
+
+.coder {
+    display: flex;    
+    padding: 10px;
+}
+
+.coder.view1 {
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    gap:20px;
+}
+
+.coder.view2 {
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    gap:20px;
+  
+}
+
+
+.code-editor {
+    height: 100%;
+    width: 100%;
+}
+
+.code {
+    background-color: #1D1E22;
+    height: 100%;
+    width: 100%;
+}
+
+.code-type {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    height: fit-content;
+    width: 100%;
+    background-color: #1A1B1F;
+    padding: 10px;
+    border-bottom: 1px solid #333642;
+}
+
+.ace_gutter {
+    background-color: #1D1E22 !important;
+}
+
+.ace_gutter-cell.ace_gutter-active-line.ace_info {
+    background-color: #1D1E22 !important;
+}
+
+.ace-nord-dark .ace_gutter-active-line {
+    background-color: #1D1E22 !important;
+}
+
+.output {
+    background-color: white;
+ margin-top: 11px;
+ height: 755px;
+ width:1416px;
+}
+.output2 {
+    background-color: white;
+ margin-top: 11px;
+ height: 755px;
+ width:1416px;
+}
+
+.virtual-iframe {
+    height: 100%;
+    width: 100%;
+   
+}
+element.style{
+    transform: translate(0px, 0px);
+    width: 410px;
+    height:365px;
+}
+.ace_content{
+    width: 410px;
+    height:365px;
+
+}
+.change-layout {
+   
+    height: fit-content;
+    width: fit-content;
+    border-radius: 7px;
+    background-color: #444857;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    margin: 0px 8px 0px ;
+    bottom: 15px;
+    left: 15px;
+    cursor: pointer;
+    z-index: 20;
+    user-select: none;
+}
+
+
+.change-layout:hover {
+    background-color: #2d303a;
+}
+
+
+
+.button-box button{
+  width: 100px;
+  height: 40px;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+}
+
+.button{
+    background-color: #444857;
+  color: white;
+  border: none;
+  border-radius: .3rem;
+}
+.button:hover{
+  cursor: pointer;
+  
+  background-color:  #7b7d85;
+  
+}
+
+  

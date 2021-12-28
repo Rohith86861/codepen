@@ -1,0 +1,68 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodePen Clone</title>
+  
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg" style="background-color:black;">
+
+        <div class="container-fluid">
+          <a class="navbar-brand" style="color: white;"><font size="+2"> <i class="fab fa-codepen"></i>CodePen.io</font> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             
+            </ul>
+            <form class="d-flex">
+                <div class="change-layout">Change Layout</div>
+                <div class="change-output btn btn-primary me-2 button">Change Output</div>
+                <button class="btn btn-primary me-2 button"><i class="fas fa-cloud" style="color: white;"></i> Save</button>
+                <button class="btn btn-primary me-2 button"><i class="fas fa-cog"  style="color: white;"></i> Settings</button>
+                <button class="btn btn-success me-2">Sign Up</button>
+                <button class="btn btn-primary me-2 button" >Log in</button>
+
+            
+            </form>
+          </div>
+        </div>
+      </nav>
+   
+   
+   
+    <div class="container view1">
+        <div class="output2" id="out2" style = "display:none;">
+            <iframe src="" class="virtual-iframe" frameborder="0"></iframe>
+        </div>
+        <div class="coder view1">
+            
+            <div class="code-editor htmlCoder">
+                <div class="code-type"><i style="color:rgb(231, 81, 22) "class="fab fa-html5"></i> HTML</div>
+                <div class="code html" id="html" ></div>
+            </div>
+            <div class="code-editor cssCoder">
+                <div class="code-type"><i style="color:#0084ff" class="fab fa-css3"></i> CSS</div>
+                <div class="code css" id="css" ></div>
+            </div>
+            <div class="code-editor jsCoder">
+                <div class="code-type"><i style="color:rgb(231, 228, 22) " class="fab fa-node-js"></i> JS</div>
+                <div class="code js" id="javascript"></div>
+            </div>
+        </div>
+        <div class="output" id="out1">
+            <iframe src="" class="virtual-iframe" frameborder="0"></iframe>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
